@@ -8,9 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 
-model = load_model(
-    r"C:\Users\Medhansh Mathur\OneDrive\Desktop\stock_predictor\Stock Predictions Model.keras"
-)
+model = load_model("Stock_Predictions_Model.keras")
 
 
 st.header("📈 Stock Price Prediction App")
