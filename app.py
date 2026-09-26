@@ -11,11 +11,7 @@ from sklearn.preprocessing import MinMaxScaler
 import os
 from keras.models import load_model
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "Stock_Predictions_Model.keras")
-
-model = load_model(MODEL_PATH)
-
+model = load_model("Stock Predictions Model.keras")
 
 st.header("📈 Stock Price Prediction App")
 
